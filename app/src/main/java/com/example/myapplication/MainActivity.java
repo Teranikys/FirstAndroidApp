@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         button = findViewById(R.id.button);
         textView = findViewById(R.id.textView);
         editText = findViewById(R.id.editTextView);
+        System.out.println("Goodbye world");
 
 //        Анонимный внутренний класс
         button.setOnClickListener(new View.OnClickListener() {
