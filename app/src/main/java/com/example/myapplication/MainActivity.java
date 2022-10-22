@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     String name;
     int counter = 0;
 
+    //Изменение для коммита
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 //        Анонимный внутренний класс
         button.setOnClickListener(new View.OnClickListener() {
-//            этот метод вызывается каждый раз при нажатии на кнопку
+            //            этот метод вызывается каждый раз при нажатии на кнопку
             @Override
             public void onClick(View view) {
                 counter++;
